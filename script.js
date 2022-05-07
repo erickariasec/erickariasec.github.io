@@ -23,6 +23,21 @@ $(document).ready(function(){
         $(".menu-btn i").toggleClass("active");
     });
 
+    // typing animation script
+    var typed = new Typed(".typing-2", {
+        strings: ["Developer", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing", {
+        strings: ["Developer", "Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
