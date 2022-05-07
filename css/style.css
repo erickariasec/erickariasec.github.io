@@ -116,7 +116,7 @@
 section {
     padding: 100px 0;
 }
-.about, .services, .skills, .projects, .contact {
+.about, .services, .skills, .projects, .contact, footer {
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -473,6 +473,21 @@ section .title::after {
 .contact .right form .button button:hover {
     color: #0d86cb;
     background: none
+}
+
+/* footer section styling */
+footer {
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a {
+    color: #0d86cb;
+    text-decoration: none;
+}
+footer span a:hover {
+    text-decoration: underline;
 }
 
 /* responsive media query start  */
