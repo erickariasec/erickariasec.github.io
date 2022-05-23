@@ -115,6 +115,11 @@ html {
     font-weight: 600;
     margin-left: -3px;
 }
+.home .home-content .text-2 h1 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
 .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
@@ -615,6 +620,9 @@ footer span a:hover {
     .home .home-content .text-2 {
         font-size: 60px;
     }
+    .home .home-content .text-2 h1 {
+        font-size: 60px;
+    }
     .home .home-content .text-3 {
         font-size: 32px;
     }
@@ -628,6 +636,9 @@ footer span a:hover {
 
 @media (max-width: 500px) {
     .home .home-content .text-2 {
+        font-size: 50px;
+    }
+    .home .home-content .text-2 h1 {
         font-size: 50px;
     }
     .home .home-content .text-3 {
