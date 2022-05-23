@@ -398,7 +398,7 @@ section .title::after {
     text-align: center;
     margin-top: 20px;
 }
-.owl-dot {
+button.owl-dot {
     height: 13px;
     width: 13px;
     margin: 0 5px;
@@ -407,7 +407,7 @@ section .title::after {
     border: 2px solid #0d86cb !important;
     transition: all 0.3s ease;
 }
-.owl-dot.active {
+button.owl-dot.active {
     width: 35px;
     border-radius: 14px;
 }
