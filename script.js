@@ -5,10 +5,15 @@ $(document).ready(function(){
         } else {
             $('.navbar').removeClass("sticky");
         }
-        if (this.scrollY > 500) {
+        if (this.scrollY > 10) {
             $('.scroll-up-btn').addClass("show");
         } else {
             $('.scroll-up-btn').removeClass("show");
+        }
+        if (this.scrollY > 10) {
+          $(".whatsapp-btn").addClass("show");
+        } else {
+          $(".whatsapp-btn").removeClass("show");
         }
     });
 
